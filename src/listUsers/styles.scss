@@ -1,0 +1,15 @@
+.alert {
+  width: 20%;
+  position: fixed;
+  top: 1em;
+  right: 0em;
+  text-align: right;
+
+  button {
+    margin-left: 5px;
+  }
+
+  .show-alert {
+    display: none;
+  }
+}

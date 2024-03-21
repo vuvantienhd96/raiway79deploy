@@ -1,0 +1,14 @@
+// https://sass-lang.com/
+$base-color: #c6538c;
+$border-dark: rgba($base-color, 0.88);
+$bgColor-button: green;
+$textColor-white: white;
+
+.bgButon {
+  background-color: $bgColor-button;
+  color: $textColor-white;
+}
+
+.navbar {
+  color: $textColor-white;
+}

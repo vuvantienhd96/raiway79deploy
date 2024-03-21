@@ -1,0 +1,42 @@
+.searchBox {
+  border: 2px solid blue;
+  width: 97%;
+  margin: 5px 5px;
+  height: 100px;
+  .input-group {
+    padding: 5px;
+    margin-bottom: 0 !important;
+  }
+  .checkbox {
+    padding-right: 100px;
+  }
+}
+
+.ListResult {
+  border: 2px solid green;
+  height: 100%;
+  width: 98%;
+  margin: 0 auto;
+
+  .listProduct {
+    border: 2px solid black;
+    width: 98%;
+    margin: 0 auto;
+    ul {
+      list-style: none;
+    }
+    .item-list {
+      display: flex;
+      justify-content: space-between;
+      padding-right: 40px;
+    }
+  }
+
+  .titleList {
+    border: 2px solid red;
+    width: 98%;
+    margin: 0 auto;
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
+}
