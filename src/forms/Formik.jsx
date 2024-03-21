@@ -15,8 +15,8 @@ export const Formik = () => {
     },
   });
   return (
-    // <form onSubmit={isFormik.handleSubmit}>
-      <span style={{color: 'green'}}>simple test deploy code vercel</span>
+    <form onSubmit={isFormik.handleSubmit}>
+      <span style={{color: 'gray'}}>simple test deploy code vercel</span>
       <label htmlFor="email">Email Address</label>
       <input
         id="email"
